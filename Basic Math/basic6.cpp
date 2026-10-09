@@ -1,8 +1,8 @@
 /*
 Factorial of a given number
 Examole->
-(1)-nums=5   (2)nums=3
-O/P=120       O/p=6;
+(1)-nums=5   (2)nums=3   (3)nums=0
+O/P=120       O/p=6;      O/P=1
 */
 #include<iostream>
 using namespace std;
