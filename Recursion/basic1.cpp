@@ -6,11 +6,11 @@ using namespace std;
 class solution{
 public:
     void printnum(int n){
-        if (n > 10){
+        if (n > 10){//Base Case
             return;
         }
         cout << n << " ";
-        printnum(n + 1);
+        printnum(n + 1);//Recursion Call
     }
 };
 
@@ -18,11 +18,11 @@ public:
 class Method{
 public:
     void printnum(int i, int n){
-        if (i == n){
+        if (i == n){//Base Case
             return;
         }
         cout << i << " ";
-        printnum(i + 1, n);
+        printnum(i + 1, n);//Recursion call
     }
 };
 
@@ -30,15 +30,15 @@ public:
 class solution{
     private:
     void printnume(int i,int n){
-        if(i>=n){
+        if(i>=n){//Base case
             return;
         }
         cout<<i<<" ";
-        printnum(i+1,n);
+        printnum(i+1,n);//Recursion Call
     }
     public:
     void printnum(int n){
-        printnume(1,n);
+        printnume(1,n);//Function Call
     }
 };
 int main(){
